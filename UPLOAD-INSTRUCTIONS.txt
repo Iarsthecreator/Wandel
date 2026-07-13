@@ -1,3 +1,0 @@
-Extract this ZIP and upload EVERYTHING inside it directly into the root of the existing GitHub repository.
-The new HTML files contain their CSS and JavaScript directly, so the design cannot break because of missing CSS or JS files.
-Commit directly to the main branch and wait for the GitHub Pages action to finish.
