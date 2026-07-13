@@ -1,3 +1,0 @@
-Upload every file and folder from this extracted directory directly into the ROOT of your existing GitHub repository.
-index.html and the assets and wiki folders must be visible directly on the repository home page.
-Do not upload this entire directory as a nested folder.
