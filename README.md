@@ -61,3 +61,10 @@ The Legal Notice and Privacy Policy have been filled with the supplied operator 
 - `assets/js/main.js` – Navigation, external links, search, animations and interactions
 - `assets/js/search-index.js` – Search entries
 - `assets/js/site-config.js` – External links and operator configuration
+
+
+## English cache-fix build
+
+This package uses versioned English asset files (`main-en-v3.js`, `styles-en-v3.css`,
+`search-index-en-v3.js`, and `site-config-en-v3.js`). This prevents browsers and
+GitHub Pages from continuing to display an older cached German navigation or footer.
