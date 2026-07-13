@@ -1,6 +1,6 @@
 # Wandel Website
 
-This is the complete static website for **Wandel**. It includes the official landing page, handbook, expandable wiki, world overview, updates, roadmap, team credits, legal notice and privacy template.
+This is the complete static website for **Wandel**. It includes the official landing page, handbook, expandable wiki, world overview, updates, roadmap, team credits, legal notice and privacy policy.
 
 ## Publish with GitHub Pages
 
@@ -17,19 +17,20 @@ The website will normally be available at:
 https://YOUR-GITHUB-NAME.github.io/YOUR-REPOSITORY-NAME/
 ```
 
-## Add the Roblox and Discord links
+## Official external links
 
-Open:
+The Roblox game, Roblox group and Discord invite are already configured in:
 
 ```text
 assets/js/site-config.js
 ```
 
-Replace the `#` placeholders:
+Current link fields:
 
 ```js
-robloxUrl: "#",
-discordUrl: "#",
+robloxGameUrl: "...",
+robloxGroupUrl: "...",
+discordUrl: "...",
 ```
 
 ## Legal information
@@ -52,9 +53,11 @@ The Legal Notice and Privacy Policy have been filled with the supplied operator 
 - `updates.html` – News and development updates
 - `roadmap.html` – Development roadmap
 - `team.html` – Team and credits
-- `impressum.html` – Legal notice template
-- `datenschutz.html` – Privacy policy template
+- `legal-notice.html` – Legal notice
+- `privacy-policy.html` – Privacy policy
+- `impressum.html` – Compatibility copy of the English legal notice
+- `datenschutz.html` – Compatibility copy of the English privacy policy
 - `assets/css/styles.css` – Complete design and responsive layout
-- `assets/js/main.js` – Navigation, search, animations and interactions
+- `assets/js/main.js` – Navigation, external links, search, animations and interactions
 - `assets/js/search-index.js` – Search entries
 - `assets/js/site-config.js` – External links and operator configuration
